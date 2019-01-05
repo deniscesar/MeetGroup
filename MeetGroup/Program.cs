@@ -70,7 +70,6 @@ namespace MeetGroup
             else
             {
                 Console.WriteLine("Tente novamente");
-                atendimento = Atendimento.InitAtendimento();
             }
         }
 

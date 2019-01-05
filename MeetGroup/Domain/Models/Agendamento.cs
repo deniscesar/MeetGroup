@@ -32,32 +32,32 @@ namespace MeetGroup.Domain.Models
 
             if (DataInicio.Date == hoje.Date)
             {
-                Console.WriteLine("As reuniões devem ser agendadas com no mínimo um dia de antecedência");
+                Console.WriteLine("\nErro: As reuniões devem ser agendadas com no mínimo um dia de antecedência");
                 return false;
             }
 
             if (DataInicio.Subtract(hoje).Days > 40)
             {
-                Console.WriteLine("As reuniões devem ser agendadas com no máximo 40 dia de antecedência");
+                Console.WriteLine("\nErro: As reuniões devem ser agendadas com no máximo 40 dia de antecedência");
                 return false;
             }
 
             var dia = (int)DataInicio.DayOfWeek;
             if (dia == 0 || dia == 6)
             {
-                Console.WriteLine("As reuniões devem ser agendadas apenas para os dias úteis");
+                Console.WriteLine("\nErro: As reuniões devem ser agendadas apenas para os dias úteis");
                 return false;
             }
 
             if (DataFim.Subtract(DataInicio).TotalHours > 8)
             {
-                Console.WriteLine("Reuniões não podem durar mais que 8 horas");
+                Console.WriteLine("\nErro: Reuniões não podem durar mais que 8 horas");
                 return false;
             }
 
             if (DataFim.Subtract(DataInicio).Hours < 1)
             {
-                Console.WriteLine("Data final das reuniões não podem ser menor que a data incial");
+                Console.WriteLine("\nERRO: Data final das reuniões não podem ser menor que a data incial");
                 return false;
             }
 
