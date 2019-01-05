@@ -60,7 +60,7 @@ namespace MeetGroup
                 {
                     Agendamento agendamento = new Agendamento(sala.Id, atendimento.DataInicio, atendimento.DataFim);
                     agendamento.Schedule();
-                    Console.WriteLine("Agendamento confirmado: " + sala.Nome);
+                    Console.WriteLine("\nReserva confirmada: " + sala.Nome);
                 }
                 else
                 {

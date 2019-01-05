@@ -145,7 +145,7 @@ namespace MeetGroup.Domain.Models
             {
                 Agendamento escolhido = agendamentos[option - 1];
                 escolhido.Schedule();
-                Console.WriteLine("\nAgendamento confirmado: " + itens[option - 1].Nome);
+                Console.WriteLine("\nReserva confirmada: " + itens[option - 1].Nome);
             }
             
         }
