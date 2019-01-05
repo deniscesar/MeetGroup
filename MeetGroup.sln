@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetGroup", "MeetGroup\MeetGroup.csproj", "{2C22236D-F955-4AD4-ABCC-E1B78A04D785}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C22236D-F955-4AD4-ABCC-E1B78A04D785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C22236D-F955-4AD4-ABCC-E1B78A04D785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C22236D-F955-4AD4-ABCC-E1B78A04D785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C22236D-F955-4AD4-ABCC-E1B78A04D785}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {751F5DF9-C21B-4BDD-8CEA-5C3EFB8F28F6}
+	EndGlobalSection
+EndGlobal
